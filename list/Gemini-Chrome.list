@@ -1,0 +1,12 @@
+# ===== Gemini Chrome / Edge integration =====
+# Chrome/Edge integrated Gemini entrypoints & resources often used by the side panel / 'Ask Gemini'
+DOMAIN-SUFFIX,chrome.google.com
+DOMAIN-SUFFIX,chromewebstore.google.com
+DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,clientservices.googleapis.com
+DOMAIN-SUFFIX,content-autofill.googleapis.com
+
+# Shared Google infra needed by Chrome features
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com

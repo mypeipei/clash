@@ -1,0 +1,13 @@
+# ===== Gemini Web (Browser) =====
+# Core Gemini web app
+DOMAIN,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+
+# Auth / session
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+
+# Gemini related endpoints commonly hit by web UI
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com

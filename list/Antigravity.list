@@ -1,0 +1,22 @@
+# ===== Antigravity App (Desktop) =====
+
+# OpenAI
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# Anthropic (Claude)
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# Google AI
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,googleapis.com
+
+# Cloudflare / Workers / Challenges
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,challenges.cloudflare.com
+
+# GitHub (updates / metadata)
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,raw.githubusercontent.com

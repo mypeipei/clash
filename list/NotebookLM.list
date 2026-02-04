@@ -1,0 +1,9 @@
+# ===== NotebookLM =====
+DOMAIN,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google
+
+# Supporting endpoints used by NotebookLM
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
