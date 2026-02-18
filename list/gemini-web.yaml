@@ -1,0 +1,38 @@
+# ============================================================
+# gemini-web.yaml
+# Gemini 网页版 + Antigravity 网页访问 专属规则集
+# 在 OpenClash 中需配合 gemini-common.yaml 一起使用
+# ============================================================
+
+payload:
+  # ── 网页版内嵌 YouTube 缩略图 ──
+  - DOMAIN,i.ytimg.com
+  - DOMAIN,yt3.ggpht.com
+  - DOMAIN,www.youtube.com
+
+  # ── 用户头像 / 上传图片 ──
+  - DOMAIN,lh3.googleusercontent.com
+  - DOMAIN,lh5.googleusercontent.com
+  - DOMAIN,lh3.google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+
+  # ── 地图 / 位置预览（Gemini 地图卡片）──
+  - DOMAIN,maps.googleapis.com
+  - DOMAIN,maps.gstatic.com
+  - DOMAIN,streetviewpixels-pa.googleapis.com
+
+  # ── 自动填充 / 搜索增强 ──
+  - DOMAIN,content-autofill.googleapis.com
+
+  # ── 加密缩略图（图片预览）──
+  - DOMAIN,encrypted-tbn0.gstatic.com
+  - DOMAIN,encrypted-tbn1.gstatic.com
+  - DOMAIN,encrypted-tbn2.gstatic.com
+  - DOMAIN,encrypted-tbn3.gstatic.com
+
+  # ── Antigravity 网页入口 ──
+  - DOMAIN,antigravity.google
+
+  # ── 标签管理器（网页版行为追踪）──
+  - DOMAIN,www.googletagmanager.com
+  - DOMAIN,www.google-analytics.com

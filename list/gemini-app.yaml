@@ -1,0 +1,35 @@
+# ============================================================
+# gemini-app.yaml
+# Gemini APP 版 + Antigravity 桌面客户端 专属规则集
+# 在 OpenClash 中需配合 gemini-common.yaml 一起使用
+# ============================================================
+
+payload:
+  # ── Google Play（APP 下载与更新）──
+  - DOMAIN,play.google.com
+  - DOMAIN,play.googleapis.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+
+  # ── Firebase（推送通知 / APP 崩溃上报）──
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,firebase.google.com
+  - DOMAIN-SUFFIX,fcm.googleapis.com
+  - DOMAIN-SUFFIX,firebaseapp.com
+
+  # ── APP 端用户头像 ──
+  - DOMAIN,lh3.googleusercontent.com
+  - DOMAIN,lh5.googleusercontent.com
+
+  # ── Antigravity 桌面客户端下载与更新 ──
+  - DOMAIN,antigravity.google
+  - DOMAIN,dl.google.com
+
+  # ── Google One / AI 订阅管理 ──
+  - DOMAIN,one.google.com
+
+  # ── APP 端广告/推广（可按需删除）──
+  - DOMAIN,ogads-pa.clients6.google.com
+
+  # ── 崩溃/性能上报 ──
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN,firebaselogging-pa.googleapis.com
