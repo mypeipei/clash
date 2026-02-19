@@ -38,3 +38,9 @@ payload:
 
   # ── Google CSP / 安全策略 ──
   - DOMAIN,csp.withgoogle.com
+
+  # ── NotebookLM 专属 API（音频生成 / 文档处理）──
+  - DOMAIN,notebooklm-pa.googleapis.com
+  - DOMAIN,drive.googleapis.com
+  - DOMAIN,docs.googleapis.com
+  - DOMAIN,storage.googleapis.com
