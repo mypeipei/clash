@@ -1,37 +1,14 @@
-# ============================================================
-# gemini-chrome.yaml
-# Gemini Chrome 侧边栏 + Antigravity IDE 内嵌浏览器 专属规则集
-# 在 OpenClash 中需配合 gemini-common.yaml 一起使用
-# ============================================================
-
-payload:
-  # ── Chrome 扩展 / 侧边栏通信 ──
-  - DOMAIN,ogs.google.com
-
-  # ── Chrome Identity API（OAuth 登录）──
-  - DOMAIN,accounts.google.com
-
-  # ── 标签管理器 / 行为分析 ──
-  - DOMAIN,www.googletagmanager.com
-  - DOMAIN,www.google-analytics.com
-
-  # ── DoubleClick（侧边栏推广内容，可按需删除）──
-  - DOMAIN,static.doubleclick.net
-  - DOMAIN,td.doubleclick.net
-  - DOMAIN,googleads.g.doubleclick.net
-
-  # ── Antigravity IDE 内嵌 Chrome 浏览器调试端点 ──
-  # (Antigravity 启动时使用 Chrome --remote-debugging-port)
-  - DOMAIN,antigravity.google
-
-  # ── Chrome Web Store（扩展商店，Gemini 侧边栏来源）──
-  - DOMAIN,clients2.google.com
-  - DOMAIN,chrome.google.com
-  - DOMAIN-SUFFIX,chromewebstore.google.com
-
-  # ── Chrome 同步 / 账号数据 ──
-  - DOMAIN,clients4.google.com
-  - DOMAIN,clients6.google.com
-
-  # ── Chrome 安全浏览 API ──
-  - DOMAIN,safebrowsing.googleapis.com
+DOMAIN,ogs.google.com
+DOMAIN,accounts.google.com
+DOMAIN,www.googletagmanager.com
+DOMAIN,www.google-analytics.com
+DOMAIN,static.doubleclick.net
+DOMAIN,td.doubleclick.net
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,antigravity.google
+DOMAIN,clients2.google.com
+DOMAIN,chrome.google.com
+DOMAIN-SUFFIX,chromewebstore.google.com
+DOMAIN,clients4.google.com
+DOMAIN,clients6.google.com
+DOMAIN,safebrowsing.googleapis.com

@@ -1,46 +1,21 @@
-# ============================================================
-# gemini-common.yaml
-# Gemini 三端 + Antigravity 共用核心域名规则集
-# 适用于 OpenClash (Clash Meta 内核)
-# 更新：涵盖 Google 官方防火墙白名单 + Antigravity 实测端点
-# ============================================================
-
-payload:
-  # ── Gemini / Google AI 核心入口 ──
-  - DOMAIN,gemini.google.com
-  - DOMAIN,ai.google.com
-
-  # ── Google 账号认证（三端必需）──
-  - DOMAIN,accounts.google.com
-  - DOMAIN,oauth2.googleapis.com
-
-  # ── Google 核心 API（所有端均需要）──
-  - DOMAIN-SUFFIX,googleapis.com
-
-  # ── Antigravity 专属 API 端点 ──
-  - DOMAIN,cloudcode-pa.googleapis.com
-  - DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
-  - DOMAIN,code.googleapis.com
-
-  # ── AI 推理 / 优化接口 ──
-  - DOMAIN,optimizationguide-pa.googleapis.com
-  - DOMAIN,jnn-pa.googleapis.com
-  - DOMAIN,waa-pa.clients6.google.com
-  - DOMAIN,generativelanguage.googleapis.com
-
-  # ── gstatic 静态资源（字体/图标/证书）──
-  - DOMAIN-SUFFIX,gstatic.com
-
-  # ── Google 主域（search grounding、身份验证等）──
-  - DOMAIN,www.google.com
-  - DOMAIN,ogs.google.com
-  - DOMAIN,apis.google.com
-
-  # ── Google CSP / 安全策略 ──
-  - DOMAIN,csp.withgoogle.com
-
-  # ── NotebookLM 专属 API（音频生成 / 文档处理）──
-  - DOMAIN,notebooklm-pa.googleapis.com
-  - DOMAIN,drive.googleapis.com
-  - DOMAIN,docs.googleapis.com
-  - DOMAIN,storage.googleapis.com
+DOMAIN,gemini.google.com
+DOMAIN,ai.google.com
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,code.googleapis.com
+DOMAIN,optimizationguide-pa.googleapis.com
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,waa-pa.clients6.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN,www.google.com
+DOMAIN,ogs.google.com
+DOMAIN,apis.google.com
+DOMAIN,csp.withgoogle.com
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,drive.googleapis.com
+DOMAIN,docs.googleapis.com
+DOMAIN,storage.googleapis.com
