@@ -36,3 +36,6 @@ payload:
   # ── 标签管理器（网页版行为追踪）──
   - DOMAIN,www.googletagmanager.com
   - DOMAIN,www.google-analytics.com
+
+  # ── NotebookLM 网页版入口 ──
+  - DOMAIN,notebooklm.google.com
