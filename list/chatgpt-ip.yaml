@@ -1,0 +1,24 @@
+# ============================================================
+# chatgpt-ip.yaml
+# ChatGPT APP (OpenAI) IP 规则集
+# OpenAI 自有 ASN: AS54113 (Fastly CDN) + AS20473 (Choopa/Vultr)
+# + 直接使用的 OpenAI 自有 IP 段
+# 必须在 MATCH 之前引用，behavior: ipcidr
+# ============================================================
+payload:
+  # OpenAI 自有 IP 段
+  - IP-CIDR,23.102.140.112/28
+  - IP-CIDR,13.107.238.51/32
+  - IP-CIDR,13.107.246.51/32
+  - IP-CIDR,20.1.28.48/28
+  - IP-CIDR,20.70.246.20/32
+  - IP-CIDR,20.224.187.102/32
+  - IP-CIDR,52.225.124.202/32
+  - IP-CIDR,20.98.183.48/28
+  - IP-CIDR,20.97.189.229/32
+  - IP-CIDR,20.19.5.100/32
+  # Fastly CDN（ChatGPT APP 内容分发）
+  - IP-CIDR,151.101.0.0/16
+  - IP-CIDR,199.232.0.0/16
+  # OpenAI API 主要出口段
+  - IP-CIDR,104.18.0.0/15
