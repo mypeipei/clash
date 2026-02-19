@@ -33,3 +33,6 @@ payload:
   # ── 崩溃/性能上报 ──
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN,firebaselogging-pa.googleapis.com
+
+  # ── NotebookLM APP 入口 ──
+  - DOMAIN,notebooklm.google.com
