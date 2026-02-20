@@ -1,26 +1,10 @@
-# ============================================================
-# gemini-ip.yaml
-# Gemini + NotebookLM + Antigravity IP 规则集
-# 必须在 google_ip 规则集之前引用，防止被 Google 节点抢先匹配
-# 用法：- RULE-SET,gemini-ip,🤖 Gemini,no-resolve
-# ============================================================
-
-payload:
-  # ── Gemini / NotebookLM 主要 IP 段（Google Cloud us-central1）──
-  # 说明：Gemini API 后端集中在以下 Google 自有段
-  # 这些段与普通 Google 搜索/广告有重叠，但 Gemini 流量以域名规则为主
-  # IP 规则作为兜底，防止 google_ip 抢先命中
-
-  # Google 全球 BGP 主要段（Gemini 后端所在）
-  - IP-CIDR,142.250.0.0/15
-  - IP-CIDR,172.217.0.0/16
-  - IP-CIDR,74.125.0.0/16
-  - IP-CIDR,64.233.160.0/19
-  - IP-CIDR,66.102.0.0/20
-  - IP-CIDR,66.249.64.0/19
-  - IP-CIDR,72.14.192.0/18
-  - IP-CIDR,209.85.128.0/17
-  - IP-CIDR,216.58.192.0/19
-  - IP-CIDR,216.239.32.0/19
-  - IP-CIDR6,2607:f8b0::/32
-  - IP-CIDR6,2404:6800::/32
+IP-CIDR,142.250.0.0/15
+IP-CIDR,172.217.0.0/16
+IP-CIDR,74.125.0.0/16
+IP-CIDR,64.233.160.0/19
+IP-CIDR,66.102.0.0/20
+IP-CIDR,66.249.64.0/19
+IP-CIDR,72.14.192.0/18
+IP-CIDR,209.85.128.0/17
+IP-CIDR,216.58.192.0/19
+IP-CIDR,216.239.32.0/19
