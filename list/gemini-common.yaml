@@ -3,6 +3,7 @@ DOMAIN,ai.google.com
 DOMAIN,accounts.google.com
 DOMAIN,oauth2.googleapis.com
 DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,withgoogle.com
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN,code.googleapis.com
